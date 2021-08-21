@@ -11490,7 +11490,12 @@ html {
   background-color: #2c3e50;
   color: #fff;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .copyright {
   background-color: #1a252f;
 }
