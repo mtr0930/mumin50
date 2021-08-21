@@ -50,16 +50,5 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-    
-    var dday = new Date("April 10, 2020, 0:00:00").getTime();
-
-    setInterval(function() {
-    var today = new Date().getTime();
-    var gap = today - dday;
-    var day = Math.ceil(gap / (1000 * 60 * 60 * 24));
-
-
-    document.getElementById("count").innerHTML = "우리가 만난날은 " + day + "일 ";
-    }, 1000);
 
 });
